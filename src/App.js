@@ -5,7 +5,9 @@ import Chunga from "./components/Chunga";
 import Hochu from './components/Hochu';
 import Books from './components/Books';
 import Song from './components/Song';
-
+import Length from './components/Length';
+import Uppercase from './components/Uppercase';
+import LowerCase from './components/LowerCase';
 
 
 function App() {
@@ -18,6 +20,11 @@ function App() {
       <Hochu v = "kosmos" />  
       <Books name = "Harry Potter" author = "J.R." />
       <Song name = "Somoeone you loved" artist = "Lewis Capaldi" />
+      <Length string="Example string " />
+      <Length string="Hello World " />
+
+      <Uppercase >hello world</Uppercase>
+      <LowerCase >HELLO WORLD</LowerCase>
     </div>
   );
 }
