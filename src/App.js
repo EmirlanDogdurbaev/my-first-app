@@ -18,29 +18,31 @@ import Bigger from "./components/Bigger";
 function App() {
   return (
     <div className="App">
-      <HelloWorld />
-      <ByeWorld />
-      <Chunga />
-      <Hochu v="more" />
-      <Hochu v="kosmos" />
-      <Books name="Harry Potter" author="J.R." />
-      <Song name="Somoeone you loved" artist="Lewis Capaldi" />
-      <Length string="Example string " />
-      <Length string="Hello World " />
+        <HelloWorld />
+        <ByeWorld />
+        <Chunga />
+        <Hochu v="more" />
+        <Hochu v="kosmos" />
+        <Books name="Harry Potter" author="J.R." />
+        <Song name="Somoeone you loved" artist="Lewis Capaldi" />
+        <Length string="Example string " />
+        <Length string="Hello World " />
 
-      <Uppercase>hello world</Uppercase>
-      <LowerCase>HELLO WORLD</LowerCase>
+        <Uppercase>hello world</Uppercase>
+        <LowerCase>HELLO WORLD</LowerCase>
 
-      <Age year={1989} />
-      <Age year={1900} />
-      <Year age={17} />
+        <Age year={1989} />
+        <Age year={1900} />
+        <Year age={17} />
 
 
-      <Water frozen={false} />
-      <Water frozen={true} />
+        <Water frozen={false} />
+        <Water frozen={true} />
 
-      <Sum sum={15} sum={5}/>
-<Bigger a={5} b={10} />
+        <Sum sum={5} sum1={15}/>
+       
+
+        <Bigger a={5} b={10} />
     </div>
   );
 }

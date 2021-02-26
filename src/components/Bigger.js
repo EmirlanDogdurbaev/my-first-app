@@ -1,15 +1,16 @@
 function Bigger(props) {
-let a
-let b 
+let a = props.a;
+let b = props.b; 
+let c;
 if(a > b){
-    return props.a
+    c = a
 }
 else if (a < b){
-    return props.b
+    c = b
 }
 return (
     <div>
-        <p>{props.a < props.b || props.b < props.a} </p>
+        <p>{c} </p>
     </div>
     )}
 export default Bigger;

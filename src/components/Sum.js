@@ -1,7 +1,7 @@
-function Sum({sum}) {
+function Sum(props) {
     return (
     <div>
-        <p>{sum + sum}</p>
+        <p>{props.sum1 + props.sum}</p>
     </div>
     )}
 
