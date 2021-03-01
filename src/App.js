@@ -1,17 +1,15 @@
 import React from "react";
-import List from "./components/List"
-import Ol from "./components/Ol"
+import Name from "./components/Name"
+import Two from "./components/Two";
+
 
 function App() {
-  let richPeople = ["Elon Musk ", "Jef Besos", "Bill Gates"];
-
-
   return (
     <div className="App">
-     <List items={richPeople} />
-     <Ol items={richPeople} />
+      <Name/>
+      <Two/>
     </div>
-  )
+  );
 }
 
 export default App;
