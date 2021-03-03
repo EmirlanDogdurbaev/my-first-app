@@ -1,6 +1,8 @@
 import React from "react";
+import Massive from "./components/Massive";
 import Name from "./components/Name"
 import Two from "./components/Two";
+
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Name/>
       <Two/>
+      <Massive/>
     </div>
   );
 }
