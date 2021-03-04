@@ -1,22 +1,22 @@
 import React from "react";
-import Color from "./components/Color";
-import ColorSliders from "./components/ColorSliders";
-import Countery from "./components/Country";
-import Dollar from "./components/Dollar";
-import Fahranheit from "./components/Fahrenheit";
-import FontSize from "./components/FontSize";
-import Massive from "./components/Massive";
-import Name from "./components/Name"
-import Range from "./components/Range";
-import Two from "./components/Two";
-import Length1 from "./Length1";
-
-
+import Reverse from "./components/Reverse";
+// import Color from "./components/Color";
+// import ColorSliders from "./components/ColorSliders";
+// import Countery from "./components/Country";
+// import Dollar from "./components/Dollar";
+// import Fahranheit from "./components/Fahrenheit";
+// import FontSize from "./components/FontSize";
+// import Massive from "./components/Massive";
+// import Name from "./components/Name"
+// import Range from "./components/Range";
+import Rotate from "./components/Rotate";
+// import Two from "./components/Two";
+// import Length1 from "./Length1";
 
 function App() {
   return (
     <div className="App">
-      <Name/>
+      {/* <Name/>
       <Two/>
       <Massive/>
       <Countery/>
@@ -26,7 +26,9 @@ function App() {
       <Dollar />
       <Fahranheit />
       <FontSize />
-      <ColorSliders />
+      <ColorSliders /> */}
+      <Rotate />
+      <Reverse />
     </div>
   );
 }

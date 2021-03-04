@@ -5,7 +5,7 @@ function ColorSliders() {
     const [g, setG] = useState(0);
     const [b, setB] = useState(0);
     return (
-        <div className="ColorSliders"  style={{ backgroundColor: rgb(`${r}, ${g}, ${b}`) }}>
+        <div className="ColorSliders"  style={{ backgroundColor: `rgb(${r}, ${g}, ${b})`}}>
             <div>
                 <input type="range" value={r} min="0" max="255" onInput={({target}) => setR(target.value)} />
             </div>
