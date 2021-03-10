@@ -7,10 +7,10 @@ function Rotate({ value }) {
       <div
         style={{
           backgroundColor: "black",
-          width: 100 + "px",
-          height: 100 + "px",
-          margin: 10 + "px",
-          transform:` rotate(${number + "deg"})`,
+          width: "100px",
+          height: "100px",
+          margin: "10px",
+          transform: `rotate(${number + "deg"})`,
         }}
       ></div>
       <input

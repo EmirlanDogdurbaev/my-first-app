@@ -2,8 +2,7 @@ import { useState } from "react";
 
 function Reverse({ value }) {
     const [text, setText] = useState(value ?? "");
-
-
+    
     let reversedText = text.split("").reverse().join("");
     return (
         <div className="Reverse">
