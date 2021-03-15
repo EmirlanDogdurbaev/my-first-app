@@ -1,0 +1,5 @@
+.Dashed{
+ border: 5px dashed black;
+ background-color: white;
+ padding: 15px;
+}

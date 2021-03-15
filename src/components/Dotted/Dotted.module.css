@@ -1,0 +1,6 @@
+.Dotted{
+    border: 5px dotted black;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+   }
